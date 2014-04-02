@@ -1,3 +1,6 @@
 # Ignoring .exe and .obj files
 *.exe
 *.obj
+#Ignoring Visual studio solution directory
+SpojSolutions/
+
