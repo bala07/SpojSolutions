@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{13F4D915-8668-473C-8E9D-7D77BB3EEE82}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ABCD.cpp" />
+    <ClCompile Include="ABCDEF.cpp" />
+    <ClCompile Include="ABSYS.cpp" />
+    <ClCompile Include="ACPC11B.cpp" />
+    <ClCompile Include="ADDREV.cpp" />
+    <ClCompile Include="ALLIZWEL.cpp" />
+    <ClCompile Include="AMR10G.cpp" />
+    <ClCompile Include="AMR11E.cpp" />
+    <ClCompile Include="ANARC07C.cpp" />
+    <ClCompile Include="ANARC08E.cpp" />
+    <ClCompile Include="ANARC08F.cpp" />
+    <ClCompile Include="ANARC08G.cpp" />
+    <ClCompile Include="ARDA1.cpp" />
+    <ClCompile Include="ARRANGE.cpp" />
+    <ClCompile Include="ARRAYSUB.cpp" />
+    <ClCompile Include="BLINNET.cpp" />
+    <ClCompile Include="BRCKTS.cpp" />
+    <ClCompile Include="BUGLIFE.cpp" />
+    <ClCompile Include="CAM5.cpp" />
+    <ClCompile Include="CERC07K.cpp" />
+    <ClCompile Include="CODEIT03.cpp" />
+    <ClCompile Include="CONGA.cpp" />
+    <ClCompile Include="CTRICK.cpp" />
+    <ClCompile Include="EASUDOKU.cpp" />
+    <ClCompile Include="ENCONDIN.cpp" />
+    <ClCompile Include="FIBOFUN.cpp" />
+    <ClCompile Include="FIBOSUM.cpp" />
+    <ClCompile Include="FREQUENT.cpp" />
+    <ClCompile Include="GSS1.cpp" />
+    <ClCompile Include="GSS3.cpp" />
+    <ClCompile Include="HORRIBLE.cpp" />
+    <ClCompile Include="HSEQ.cpp" />
+    <ClCompile Include="INVCNT.cpp" />
+    <ClCompile Include="IPS.cpp" />
+    <ClCompile Include="JAVAC.cpp" />
+    <ClCompile Include="KGSS.cpp" />
+    <ClCompile Include="MAIN8_E.cpp" />
+    <ClCompile Include="MAXSUMSQ.cpp" />
+    <ClCompile Include="MBALL.cpp" />
+    <ClCompile Include="MELE3.cpp" />
+    <ClCompile Include="MERGSORT.cpp" />
+    <ClCompile Include="MFISH.cpp" />
+    <ClCompile Include="MICEMAZE.cpp" />
+    <ClCompile Include="MINMOVE.cpp" />
+    <ClCompile Include="MKTHNUM.cpp" />
+    <ClCompile Include="MLASERP.cpp" />
+    <ClCompile Include="MREPLBRC.cpp" />
+    <ClCompile Include="MST.cpp" />
+    <ClCompile Include="MULTQ3.cpp" />
+    <ClCompile Include="PEROID.cpp" />
+    <ClCompile Include="PHONELST.cpp" />
+    <ClCompile Include="PRIME1.cpp" />
+    <ClCompile Include="QUERYSTR.cpp" />
+    <ClCompile Include="ROBOTGRI.cpp" />
+    <ClCompile Include="ROMANN.cpp" />
+    <ClCompile Include="SAMER08A.cpp" />
+    <ClCompile Include="SAMTWARR.cpp" />
+    <ClCompile Include="SARRAY.cpp" />
+    <ClCompile Include="SHPATH.cpp" />
+    <ClCompile Include="SOCOLA.cpp" />
+    <ClCompile Include="SUBLEX.cpp" />
+    <ClCompile Include="SUBST1.cpp" />
+    <ClCompile Include="SUB_PROB.cpp" />
+    <ClCompile Include="TDKPRIME.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="TILING.cpp" />
+    <ClCompile Include="WEIRDFN.cpp" />
+    <ClCompile Include="WORDCNT.cpp" />
+    <ClCompile Include="XMEDIAN.cpp" />
+    <ClCompile Include="YODANESS.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
